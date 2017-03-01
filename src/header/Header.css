@@ -1,0 +1,65 @@
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  height: 150px;
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.App-header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header-logo span {
+  font-family: BrandonGrotesque-Bold;
+  /* Robotois: */
+  font-size: 22px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.App-header-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App-header-actions span {
+    /* Kit: */
+  font-size: 16px;
+  font-family: WorkSans-Medium;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.13);
+  margin: 20px;
+  margin-top: 35px;
+  cursor: pointer;
+}
+.App-header-actions div{
+  /* Rectangle 1: */
+  background: #FFFFFF;
+  box-shadow: 0 4px 7px 0 rgba(0,0,0,0.05);
+  border-radius: 100px;
+  height: 51px;
+  width: 151px;
+    /* Ordenar: */
+  font-family: WorkSans-Bold;
+  font-size: 16px;
+  color: #5764C6;
+  letter-spacing: 0;
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.spacer {
+  flex: 1;
+}

@@ -1,0 +1,270 @@
+.App {
+  text-align: center;
+}
+.App-video-container {
+  display: flex;
+  height: 650px;
+  width: 90%;
+  margin: auto;
+  background-image: url('./images/bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.App-video-container  img {
+  cursor: pointer;
+}
+.App-video-container-slogan {
+  /* aprende | programa |: */
+  width: 786px;
+	height: 91px;
+  font-family: BrandonGrotesque-Bold;
+  font-size: 64px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+}
+.App-video-container-slogan-small {
+  /* Aprende electrónica: */
+  font-family: WorkSans-Regular;
+  width: 452px;
+  height: 24px;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 15px;
+}
+.App-video-container-question {
+  /* ¿Que es Robotois?: */
+  font-family: BrandonGrotesque-Bold;
+  font-size: 22px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  margin-top: 96px;
+}
+.App-video-container-answer {
+  /* Robotois es una plat: */
+  font-family: WorkSans-Regular;
+  font-size: 22px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  margin-top: 15px;
+}
+
+.App-kit-section {
+  width: 90%;
+	height: 1616px;
+	border-radius: 6px;
+	background-color: #ffffff;
+	box-shadow: 0 10px 24px 0 rgba(0, 0, 0, 0.14);
+  margin: auto;
+  padding-top: 45px;
+}
+.App-kit-section h3 {
+  /* ¿Que incluye el kit?: */
+  font-family: BrandonGrotesque-Bold;
+  font-size: 24px;
+  color: #5764C6;
+  letter-spacing: 0;
+}
+.App-kit-section-image-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 55px;
+}
+h4 {
+  /* El cerebro del kit: */
+  font-family: BrandonGrotesque-Light;
+  font-size: 22px;
+  color: #5764C6;
+  letter-spacing: 0;
+}
+p {
+  /* Raspberry Pi 3 confi: */
+  font-family: WorkSans-Regular;
+  font-size: 16px;
+  color: #585E76;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-align: left;
+}
+.App-kit-section-right {
+  margin-left: 219px;
+  width: 440px;
+}
+.App-kit-section-left {
+  width: 440px;
+}
+.App-kit-section-buy {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App-bottom-action-button-purple {
+  /* Rectangle 1: */
+  background: #5764C6;
+  box-shadow: 0 4px 7px 0 rgba(0,0,0,0.05);
+  border-radius: 100px;
+  /* Comprar Kit: */
+  /* Comprar Kit: */
+  font-family: BrandonGrotesque-Bold;
+  font-size: 22px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 310px;
+	height: 79px;
+  cursor: pointer;
+}
+/*Plataforma*/
+.App-editor-title {
+  /* Plataforma: */
+  font-family: BrandonGrotesque-Bold;
+  font-size: 22px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 118px;
+}
+
+.App-editor-section {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.App-editor-section-left {
+  /* Rectangle 3: */
+  width: 650px;
+	height: 591px;
+	border-radius: 4px;
+	background-color: #ffffff;
+	box-shadow: 0 10px 24px 0 rgba(0, 0, 0, 0.14);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.App-editor-section-left p {
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: left;
+}
+.App-editor-section-right {
+  margin-left: 20px;
+  flex: 1;
+}
+.App-editor-section-right div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App-editor-section-right img {
+  padding: 0px 70px 0px 58px;
+}
+.App-editor-tests-section {
+  width: 100%;
+	height: 285px;
+	border-radius: 4px;
+	background-color: #ffffff;
+	box-shadow: 0 10px 24px 0 rgba(0, 0, 0, 0.14);
+}
+.App-editor-code-section {
+  width: 100%;
+	height: 285px;
+	border-radius: 4px;
+	background-color: #ffffff;
+	box-shadow: 0 10px 24px 0 rgba(0, 0, 0, 0.14);
+  margin-top: 20px;
+}
+
+.App-bottom-action {
+  display: flex;
+  width: 100%;
+	height: 488px;
+  margin: auto;
+  background-image: url('./images/kid-iot.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.App-bottom-action-slogan {
+  /* Compre el kit y empi: */
+  font-family: BrandonGrotesque-Bold;
+  font-size: 46px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 38px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+}
+.App-bottom-action-button {
+  /* Rectangle 1: */
+  background: #FFFFFF;
+  box-shadow: 0 4px 7px 0 rgba(0,0,0,0.05);
+  border-radius: 100px;
+  /* Comprar Kit: */
+  font-family: WorkSans-Bold;
+  font-size: 16px;
+  color: #5764C6;
+  letter-spacing: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 256px;
+	height: 88px;
+  margin-top: 64px;
+  cursor: pointer;
+}
+.App-footer {
+  width: 100%;
+	height: 250px;
+	background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+.App-footer-copyrights {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App-footer span{
+  font-family: BrandonGrotesque-Bold;
+  /* Robotois: */
+  font-size: 22px;
+  color: #5764C6;
+  letter-spacing: 0;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.App-footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.App-footer-social span{
+  /* Follow Robotois: */
+  font-family: WorkSans-SemiBold;
+  font-size: 16px;
+  color: #5764C6;
+  letter-spacing: 0;
+}
+.App-footer-social .icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 18px;
+  justify-content: center;
+}
+.App-footer-social .icons img {
+  margin-left: 22px;
+}

@@ -274,11 +274,29 @@ p {
   cursor: pointer;
 }
 .App-footer-links {
-  /* Legals Terms of Use: */
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App-footer-links span {
+    /* Legals Terms of Use: */
   font-family: WorkSans-Regular;
   font-size: 16px;
   color: #7B7B7B;
   letter-spacing: 0;
   line-height: 26px;
-  cursor: pointer;
+  text-align: left;
+  width: 100%;
+}
+.App-footer-links-title {
+  /* Legals Terms of Use: */
+  font-family: WorkSans-SemiBold !important;
+  font-size: 28px;
+  color: #7B7B7B;
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 100%;
+  text-align: left;
 }

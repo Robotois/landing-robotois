@@ -1,0 +1,33 @@
+.Video-container h1 {
+  /* ¿Que es Robotois?: */
+    font-family: WorkSans-SemiBold;
+    font-size: 26px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 30px;
+}
+.Video-container p {
+  /* Robotois es una plat: */
+  font-family: WorkSans-Regular;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 25px
+}
+.Video-container section {
+  width: 100%;
+}
+
+.Video-container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 50px;
+  height: 66.5vh;
+}

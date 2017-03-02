@@ -8,6 +8,9 @@ class Header extends Component {
   redirectToVideos(path) {
     browserHistory.push(path);
   }
+  redirectToApp() {
+    window.open('http://robotois.com/app', '_blank');
+  }
   render() {
     return (
         <header className="App-header">
@@ -17,8 +20,8 @@ class Header extends Component {
           </div>
           <div className="spacer"></div>
           <div className="App-header-actions">
-            <span className="App-header-app-link">Plataforma</span>
-            <span onClick={this.redirectToVideos.bind(this, '/videos')}>Videos</span>
+            <span className="App-header-app-link" onClick={this.redirectToApp}>Plataforma</span>
+            {/*<span onClick={this.redirectToVideos.bind(this, '/videos')}>Videos</span>*/}
             {/*<span>Soluciones</span>*/}
             <div> Ordenar </div>
           </div>

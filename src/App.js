@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import './Responsive.css';
 import Header from './header/Header.jsx';
 import play from './images/play.svg';
 import logo from './images/logo-footer.svg';
@@ -17,6 +18,15 @@ import coding from './images/coding.png';
 
 
 class App extends Component {
+  redirectLink(type) {
+    console.log(arguments);
+    const redirects = {
+      github: 'https://github.com/Robotois',
+      twitter: 'https://twitter.com/robotois',
+      facebook: 'https://www.facebook.com/robotois/'
+    }
+    window.open(redirects[type], '_blank');
+  }
   render() {
     return (
       <div className="App">
@@ -77,7 +87,7 @@ class App extends Component {
             </section>
           </div>
           <div className="App-kit-section-buy">
-            <div className="App-bottom-action-button-purple"> Comprar kit</div>
+            <div className="App-bottom-action-button-purple"> Abril 2017</div>
           </div>
         </section>
         <div className="App-editor-title"> Plataforma </div>
@@ -107,19 +117,25 @@ class App extends Component {
         <div className="App-editor-title">  </div>
         <div className="App-bottom-action">
           <span className="App-bottom-action-slogan"> Compra el kit y empieza a crear tus robots </span>
-          <div className="App-bottom-action-button"> Comprar kit</div>
+          <div className="App-bottom-action-button"> Abril 2017</div>
         </div>
         <footer className="App-footer">
           <section className="App-footer-copyrights">
             <img src={logo} className="App-logo" alt="logo" />
-            <span>Robotois</span>
+            <span>Robotois ©</span>
+          </section>
+          <section className="App-footer-links">
+            Videos
+          </section>
+          <section className="App-footer-links">
+            Terminos y condiciones
           </section>
           <section className="App-footer-social">
             <span>Sigue a Robotois</span>
             <div className="icons">
-              <img src={github} className="App-logo" alt="logo" />
-              <img src={twitter} className="App-logo" alt="logo" />
-              <img src={fb} className="App-logo" alt="logo" />
+              <img src={github} className="App-logo" alt="github" onClick={this.redirectLink.bind(this,'github')}/>
+              <img src={twitter} className="App-logo" alt="twitter" onClick={this.redirectLink.bind(this,'twitter')}/>
+              <img src={fb} className="App-logo" alt="facebook" onClick={this.redirectLink.bind(this,'facebook')}/>
             </div>
           </section>
         </footer>

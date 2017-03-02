@@ -58,8 +58,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
+  /*cursor: pointer;*/
+  cursor: not-allowed;
 }
 .spacer {
   flex: 1;
+}
+@media screen and (max-width: 600px) {
+  .App-header-app-link {
+    display: none;
+  }
+  .App-header-logo span{
+    display: none;
+  }
 }

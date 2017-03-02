@@ -12,9 +12,9 @@ class Header extends Component {
           </div>
           <div className="spacer"></div>
           <div className="App-header-actions">
-            <span>Plataforma</span>
+            <span className="App-header-app-link">Plataforma</span>
             <span>Videos</span>
-            <span>Soluciones</span>
+            {/*<span>Soluciones</span>*/}
             <div> Ordenar </div>
           </div>
         </header>

@@ -1,0 +1,90 @@
+@media screen and (max-width: 900px) {
+  .App-video-container {
+    background-position: 0 0;
+  }
+  .App-video-container-slogan {
+    width: 100%;
+    font-size: 28px;
+  }
+  .App-video-container-slogan-small {
+    /* Aprende electrónica: */
+    font-family: WorkSans-Regular;
+    width: 100%;
+    height: 24px;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 15px;
+  }
+  .App-video-container-question {
+    /* ¿Que es Robotois?: */
+    font-family: BrandonGrotesque-Bold;
+    font-size: 22px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    margin-top: 96px;
+  }
+  .App-video-container-answer {
+    /* Robotois es una plat: */
+    font-family: WorkSans-Regular;
+    font-size: 22px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    margin-top: 15px;
+  }
+
+  /* KIT */
+  .App-kit-section {
+    height: auto;
+  }
+  .App-kit-section h3 {
+    margin-bottom: 50px;
+  }
+  .App-kit-section-image-text {
+    flex-direction: column;
+  }
+  .App-kit-section-image-text img{
+    width: 50%;
+  }
+  .App-kit-section-image-text section{
+    margin-left: 0px;
+    width: 100%;
+  }
+  p {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .App-kit-section-buy {
+    padding-bottom: 100px;
+  }
+  .App-editor-section {
+    flex-direction: column;
+  }
+  .App-editor-section-left {
+    width: 100%;
+  }
+  .App-editor-section-left img{
+    width: 80%;
+  }
+  .App-editor-section-right {
+    height: auto;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .App-editor-section-right div{
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 50px;
+    margin-top: 10px;
+  }
+  .App-editor-section-right img {
+    padding-top: 58px;
+  }
+  .App-footer {
+    flex-direction: column;
+    padding-top: 30px;
+  }
+  .App-footer section{
+    padding-top: 20px;
+  }
+}

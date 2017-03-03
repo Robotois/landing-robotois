@@ -1,6 +1,7 @@
 @media screen and (max-width: 900px) {
   .App-video-container {
     background-position: 0 0;
+    width: 100%;
   }
   .App-video-container-slogan {
     width: 100%;
@@ -82,9 +83,26 @@
   }
   .App-footer {
     flex-direction: column;
-    padding-top: 30px;
+    width: 100%;
+    height: auto;
   }
   .App-footer section{
     padding-top: 20px;
+  }
+  .App-footer-copyrights span{
+    margin-top: 150px;
+  }
+  .App-bottom-action {
+    background-size: 0 0;
+  }
+  .App-footer span{
+    margin: 0px;
+  }
+  .App-footer-links {
+    width: 100%;
+    padding-left: 20px;
+  }
+  .App-footer-social .icons img {
+    margin-right: 22px;
   }
 }

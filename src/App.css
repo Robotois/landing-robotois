@@ -191,6 +191,7 @@ p {
 	height: 488px;
   margin: auto;
   background-image: url('./images/kid-iot.png');
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
   justify-content: center;

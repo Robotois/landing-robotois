@@ -1,3 +1,25 @@
+
+@font-face {
+  font-family: 'WorkSans-Regular';
+  src: local('WorkSans-Regular'), url(./fonts/WorkSans-Regular.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'WorkSans-Bold';
+  src: local('WorkSans-Bold'), url(./fonts/WorkSans-Bold.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'WorkSans-SemiBold';
+  src: local('WorkSans-SemiBold'), url(./fonts/WorkSans-SemiBold.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'BrandonGrotesque-Bold';
+  src: local('BrandonGrotesque-Bold'), url(./fonts/Brandon_blk.otf) format('otf');
+}
+@font-face {
+  font-family: 'BrandonGrotesque-Light';
+  src: local('BrandonGrotesque-Light'), url(./fonts/Brandon_light.otf) format('otf');
+}
+
 body {
   margin: 0;
   padding: 0;

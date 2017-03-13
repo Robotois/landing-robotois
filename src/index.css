@@ -1,23 +1,23 @@
 
 @font-face {
   font-family: 'WorkSans-Regular';
-  src: url(https://robotois.github.io/fonts/WorkSans-Regular.ttf);
+  src: url('http://robotois.com/fonts/WorkSans-Regular.ttf');
 }
 @font-face {
   font-family: 'WorkSans-Bold';
-  src: url(https://robotois.github.io/fonts/WorkSans-Bold.ttf);
+  src: url('http://robotois.com/fonts/WorkSans-Bold.ttf');
 }
 @font-face {
   font-family: 'WorkSans-SemiBold';
-  src: url(https://robotois.github.io/fonts/WorkSans-SemiBold.ttf);
+  src: url('http://robotois.com/fonts/WorkSans-SemiBold.ttf');
 }
 @font-face {
   font-family: 'BrandonGrotesque-Bold';
-  src: url(https://robotois.github.io/fonts/Brandon_blk.otf);
+  src: url('http://robotois.com/fonts/Brandon_blk.otf');
 }
 @font-face {
   font-family: 'BrandonGrotesque-Light';
-  src: url(https://robotois.github.io/fonts/Brandon_light.otf);
+  src: url('http://robotois.com/fonts/Brandon_light.otf');
 }
 
 body {

@@ -102,7 +102,7 @@ class App extends Component {
         <div className="App-editor-title">  </div>
         <div className="App-bottom-action">
           <span className="App-bottom-action-slogan"> Compra el kit y empieza a crear tus robots </span>
-          <div className="App-bottom-action-button"> Mayo 2017</div>
+          <div className="App-bottom-action-button"> JUNIO 2017</div>
         </div>
       </div>
     );

@@ -9,7 +9,7 @@ class Header extends Component {
     browserHistory.push(path);
   }
   redirectToApp() {
-    window.open('http://robotois.com/app', '_blank');
+    // window.open('http://robotois.com/app', '_blank');
   }
   render() {
     return (
